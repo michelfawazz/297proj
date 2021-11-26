@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_more_vert_56px"
+        app:showAsAction="always"
+        android:title="@string/create_group_corner_menu">
+
+        <menu>
+            <item
+                android:id="@+id/createTaskAdminCornerMenuGroupInfo"
+                android:title="@string/group_info"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/createTaskAdminCornerMenuRenameGroup"
+                android:title="@string/rename_group"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/createTaskAdminCornerMenuAddUser"
+                android:title="@string/add_user"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/createTaskAdminCornerMenuRemoveUser"
+                android:title="@string/remove_user"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/createTaskAdminCornerMenuAddAdmin"
+                android:title="@string/add_admin"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/createTaskAdminCornerMenuRemoveAdmin"
+                android:title="@string/remove_admin"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/createTaskAdminCornerMenuDeleteGroup"
+                android:title="@string/delete_group"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/createTaskAdminCornerMenuLeaveGroup"
+                android:title="@string/leave_group"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+
+</menu>
